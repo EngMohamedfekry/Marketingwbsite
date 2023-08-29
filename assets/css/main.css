@@ -30,9 +30,11 @@ img {
     text-align: center;
     transition: all .5s;
     visibility: visible;
-    animation-name: whatsup;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
+}
+.whats_logo i{
+    margin: auto;
+    padding: 0 5px;
+    margin-top: 5px;
 }
 
 /*----------------------------
