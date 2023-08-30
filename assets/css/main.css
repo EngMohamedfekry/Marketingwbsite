@@ -789,10 +789,10 @@ a {
     transition: 0.3s;
 }
 
-.footer .social-links a:hover {
+/* .footer .social-links a:hover {
     color: var(--color-primary);
     border-color: var(--color-primary);
-}
+} */
 
 .footer h4 {
     color: #FF6620;
@@ -810,6 +810,7 @@ a {
     list-style: none;
     padding: 0;
     margin: 0;
+
 }
 
 .footer .footer-links ul i {
@@ -822,6 +823,7 @@ a {
     padding: 10px 0;
     display: flex;
     align-items: center;
+
 }
 
 .footer .footer-links ul li:first-child {
@@ -855,4 +857,56 @@ a {
 .footer .credits {
     margin-top: 6px;
     font-size: 13px;
+}
+
+i{
+    transition: all .4s;
+}
+
+/*----
+#whats icon link
+-----*/
+.whats_link:hover{
+    background-color: rgb(96, 211, 96);
+    border: none !important;
+    box-shadow: 0 0 10px rgb(96, 211, 96);
+}
+.whats_link:hover i{
+    color: white;
+}
+
+/*----
+#facebook icon link
+----*/
+.facebook:hover{
+    background-color: rgb(10, 123, 189);
+    border: none !important;
+    box-shadow: 0 0 10px rgb(10, 123, 189);
+}
+.facebook:hover i{
+    color: white;
+}
+
+/*----
+#instagram icon link
+----*/
+.instagram:hover{
+    background-color: rgb(216, 18, 157);
+    border: none !important;
+    box-shadow: 0 0 10px rgb(181, 25, 196);
+}
+.instagram:hover i{
+    color: white;
+}
+
+/*----
+#linkedin icon link
+----*/
+.linkedin:hover{
+    background-color: rgb(38, 162, 245);
+    border: none !important;
+    box-shadow: 0 0 10px rgb(38, 162, 245);
+}
+.linkedin:hover i{
+    color: white;
 }
