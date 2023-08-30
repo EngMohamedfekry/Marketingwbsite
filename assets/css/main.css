@@ -10,6 +10,9 @@ body {
 .p-50 {
     padding: 50px 0;
 }
+.p_b{
+    padding:  0 0 70px 0;
+}
 
 img {
     width: 100%;
@@ -739,7 +742,12 @@ a {
 #ad page
 ------------------------------*/
 .ad-home img{
-    height: 75vh;
+    height: 50vh;
+}
+.ad_box .card{
+    background-color: transparent;
+    border: 1px solid #ff6600;
+    box-shadow: 5px 5px 3px #ff6600;
 }
 
 /*----------------------------
