@@ -15,7 +15,7 @@ img {
     width: 100%;
 }
 
-.whats_logo {
+/* .whats_logo {
     position: fixed;
     padding: 5px 10px;
     border-radius: 100%;
@@ -35,6 +35,28 @@ img {
     margin: auto;
     padding: 0 5px;
     margin-top: 5px;
+} */
+
+
+.scroll-top {
+    position: fixed;
+    visibility: visible;
+    opacity: 1;
+    right: 22px;
+    bottom: 22px;
+    z-index: 99999;
+    background-color: rgb(96, 211, 96);
+    border-radius: 100% !important;
+    width: 60px;
+    height: 60px;
+    transition: all 0.4s;
+    padding: 10px;
+}
+
+.scroll-top i {
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 0;
 }
 
 /*----------------------------
@@ -602,18 +624,19 @@ img {
 }
 
 @media screen and (max-width:1024px) {
-    .service_2{
+    .service_2 {
         padding: 0px 0 140px 0;
 
     }
 }
 
 @media screen and (max-width:768px) {
-    .service_2{
+    .service_2 {
         padding: 0px 0 140px 0;
 
     }
-    .service_text{
+
+    .service_text {
         padding: 3rem 0 !important;
     }
 }
@@ -622,68 +645,78 @@ img {
     .service_2 {
         padding: 0 0 143px 0;
     }
-    .service_2 .img2 img{
+
+    .service_2 .img2 img {
         width: 52%;
 
     }
 }
+
 /*----------------------------
 .service_3
 ------------------------------*/
-.service_3{
+.service_3 {
     overflow: hidden;
     padding: 0 0 70px 0;
 }
-.service_3 .img1{
+
+.service_3 .img1 {
     right: 60px;
 }
-.service_3 .img1 img{
+
+.service_3 .img1 img {
     width: 60%;
 }
 
 
 @media screen and (max-width:1024px) {
-    .service_3{
+    .service_3 {
         padding: 0px 0 140px 0;
 
     }
-    .service_3 .img1 img{
+
+    .service_3 .img1 img {
         width: 40%;
     }
 }
 
 @media screen and (max-width:768px) {
-    .service_3{
+    .service_3 {
         padding: 0px 0 140px 0 !important;
 
     }
-    .service_3 .service_text{
+
+    .service_3 .service_text {
         padding: 3rem 0 !important;
     }
-    .service_3 .img1 img{
+
+    .service_3 .img1 img {
         width: 31%;
     }
 }
 
 @media screen and (max-width:600px) {
-    .service_3{
+    .service_3 {
         padding: 0 0 85px 0 !important;
     }
-    .service_3 .img1 img{
+
+    .service_3 .img1 img {
         width: 60%;
     }
-    .service_3 .img1{
+
+    .service_3 .img1 {
         left: 40px;
         right: 60px;
 
     }
- 
+
 }
 
 @media screen and (width:540px) {
     .service_3 {
         padding: 0 0 169px 0 !important;
     }
+
     /* .service_3 .img1 img {
         width: 48% !important;
     } */
