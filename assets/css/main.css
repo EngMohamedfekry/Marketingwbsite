@@ -747,7 +747,16 @@ a {
 .ad_box .card{
     background-color: transparent;
     border: 1px solid #ff6600;
-    box-shadow: 5px 5px 3px #ff6600;
+    box-shadow: 0 0  5px #ff6600;
+}
+.ad_box .btn{
+    border-radius: 20px 2px;
+    border: 1px solid #d35603;
+    transition: all .3s;
+}
+.ad_box .btn:hover{
+    background-color: #FF6600;
+    color: white;
 }
 
 /*----------------------------
