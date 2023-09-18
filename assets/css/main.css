@@ -249,6 +249,11 @@ a {
     padding: 10px 0;
     box-shadow: 0 0 10px black;
     direction: ltr;
+    position: fixed;
+    top: 0px;
+    z-index: 34;
+    width: 100%;
+    background-color: white;
 }
 
 .header .nav-item {
@@ -651,6 +656,9 @@ a {
     .service_2 {
         padding: 0px 0 140px 0;
 
+    }
+    .img1{
+        z-index: 10;
     }
 
     .service_text {

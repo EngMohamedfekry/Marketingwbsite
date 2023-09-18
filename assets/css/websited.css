@@ -77,8 +77,11 @@ padding: 20px;
     font-size: 40px;color: #0072bb;text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal;
 }
 .span1{
-    color: #000000;
+    color: black;
     margin-right: 40px;
+}
+.spa{
+    color: blue;
 }
 .span2{
     white-space: nowrap; font-family: GE SS Two; font-style: normal; font-weight: bold; font-size: 32px; color: rgba(66,73,91,1);
