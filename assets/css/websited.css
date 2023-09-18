@@ -31,9 +31,17 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+    .Design-company .span1{
+        margin-right: 3px;
+    
+    }
 } 
 body{
     overflow-x: hidden;
+}
+.Design-company{
+    margin-top: 100px;
+
 }
 .Design-company img{
     padding-top: 100px;
@@ -43,7 +51,7 @@ body{
     padding-right: 20px;
 }
 .prefer{
-    padding-right: 20px;font-size: 22px;
+    font-size: 22px; 
 }
 .prefer-img img{
     width: 100%;

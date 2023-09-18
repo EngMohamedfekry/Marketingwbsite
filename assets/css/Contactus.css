@@ -19,7 +19,7 @@
   }
   .main2 .office{
     /* margin-right: 42px; */
-    margin-right: 0px;
+    margin-right: 33px;
     margin-left: 0px;
     width: 86%
   }
@@ -36,26 +36,20 @@
  .main2 .frame{
     width: 100%;
   }
-  .main2 .frame2{
-    width: 100%;
-  }
+
  
 }
 
 body {
   overflow-x: hidden;
 }
-.maindiv .h1{
-  margin-right: 20%;
+.divh1{
+  margin-right: 35%;
 }
 .office{
   display: flex; align-items: center;padding: 2%;
   width: 80%;
   margin-right: 10%;
-}
-.figure1{
-    width: 500px;height:800px ;
-    margin-right: 40%;
 }
 .h1{
     text-align: center;
@@ -78,9 +72,6 @@ form {
   }
   .maindiv{
     display: flex; align-items: center;
-  }
-  .main2{
-    margin-top: -390px;
   }
   
   .row {
